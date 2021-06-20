@@ -1,0 +1,58 @@
+/* -- Padrao para todo o documento -- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+
+/* -- Barra Navegação-- */
+#cabecalho{
+    height: 100px;
+    background-color: rgb(13, 73, 122);
+    position: fixed;
+    width: 100%;
+}
+
+#logo{
+    clear: both;
+    margin-left: 180px;
+}
+
+#nav{
+    float: right;
+    margin-top: 39px;
+    margin-right: 80px;
+}
+
+div>a{
+    color: white;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.link:hover{
+    color: rgb(92, 134, 212);
+    transition: 1s;
+}
+
+/* main */
+#main{
+    
+}
+
+/* -- banners --*/
+
+#banner img{
+    height: 200px;
+    margin: 100px 30% 0px 30%;
+}
